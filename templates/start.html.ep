@@ -1,0 +1,52 @@
+% title 'B I R D C R I E S';
+% layout 'base_layout';
+This is birdcries.
+
+<br /><br />
+
+Replace <em>twitter.com</em> in any Twitter status link by <em><%= $sitedom %></em> to get a less shitty read-only view of the tweet which is faster and will respect your privacy! You can use <a href="https://greasyfork.org/en/scripts/388575-twitter-to-birdcries">this</a> userscript to automatize it.
+
+<br /><br />
+
+<em>Example:</em> Turn <a href="https://twitter.com/jack/status/20">this legendary tweet</a> into <a href="https://<%= $sitedom %>/jack/status/20">this</a> less annoying view.
+
+<br /><br />
+
+<b>Features and non-features:</b>
+
+<br /><br />
+
+No JavaScript.
+
+<br /><br />
+
+No login/logout, no cookies.
+
+<br /><br />
+
+No inline media except the avatar (which is optional).
+
+<br /><br />
+
+No video, no audio, no attachments whatsoever.
+
+<br /><br />
+
+<b>Code and donations:</b>
+
+<br /><br />
+
+The code is on <a href="https://code.rosaelefanten.org/birdcries">Fossil.</a>
+
+<br /><br />
+
+<em>birdcries</em> is licensed under the terms of the MIT No Attribution license. See the LICENSE file for more details.
+
+<br /><br />
+
+This server is expensive. Mind to help me pay for it?
+
+<br />
+
+Give me <b>Bitcoins:</b> <em>1VdaTSJ2mxDnmqb9QnXyUQks3nt2gQzyX</em><br />
+Give me <b>Litecoins:</b> <em>LdTqDsXPB78W1s5BVRJwGMBzPCx7RFYyCD</em>

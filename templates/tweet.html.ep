@@ -1,0 +1,24 @@
+% title 'B I R D C R I E S :: Showing a single cry';
+% layout 'base_layout';
+<div id="authorcard">
+  <div id="avatar"><img src="<%= $avatar %>" id="avatarpic" /></div>
+  <div id="authorname">
+    <a href="https://twitter.com/<%= $author %>" title="Open the profile on Twitter" target="_blank">@<%= $author %></a>
+    (<%= $authordisplay %>)
+  </div>
+  <div id="datetime"><%= $datetime %></div>
+</div>
+
+<div id="tweetcard">
+  %= content 'tweet'
+</div>
+
+<!--
+  use_cache_files: <%= $use_cache %>
+  was_cached: <%= $was_cached %>
+-->
+
+<div id="metalinks">
+  Tweet ID: <%= $tweetid %><br />
+  <a href="https://twitter.com/<%= $author %>/status/<%= $tweetid %>" target="_blank">Show on Twitter</a>
+</div>
